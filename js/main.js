@@ -18,7 +18,7 @@ function main() {
       });
 */
 
-  /*  // Show Menu on Book
+   // Show Menu on Book
     $(window).bind('scroll', function() {
         var navHeight = $(window).height() - 500;
         if ($(window).scrollTop() > navHeight) {
@@ -32,7 +32,7 @@ function main() {
         target: '.navbar-default',
         offset: 80
     });
-*/
+
 	// Hide nav on click
   $(".navbar-nav li a").click(function (event) {
     // check if window is small enough so dropdown is created
@@ -70,14 +70,14 @@ function main() {
 
     });
 
-/*    // Nivo Lightbox
+   // Nivo Lightbox
     $('.portfolio-item a').nivoLightbox({
             effect: 'slideDown',
             keyboardNav: true,
         });
 
-}());
-*/
+
+
 
 }
 main();
